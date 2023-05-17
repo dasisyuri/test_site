@@ -296,19 +296,19 @@ margin-bottom: 20px;
 
 /* Make Provide Block */
 .provide {
-    height: 835px;
+    padding-bottom: 155px;
+    /* height: 835px; */
     text-align: center;
-    background: #010101
+    background-color: #010101
 }
+
 .provide-header-content {
-
-margin-top: 176px;
-
 text-align: center;
-
-margin-bottom: 138px;
+padding-bottom: 138px;
 }
+
 .provide-header-title {
+padding-top: 176px;
 font-family: 'HelveticaNeueLTProLt',sans-serif;
 font-size: 34px;
 line-height: 26px;
@@ -324,38 +324,54 @@ padding-bottom: 5px;
 font-size: 16px;
 line-height: 26px;
 font-weight: 300;
-font-style: italic;
+/* font-style: italic; */
 letter-spacing: 0.02em;
 color: #777777;
 }
+
 .provide-main {
     display: flex;  
     justify-content:space-around;
     align-content: center;
 }
 .provide-item {
-}
-.provide-ico {
     
 }
-.icon-twitter {
-    border: 1px red solid;
-    
+.provide-title{
+    max-width: 335px;
+    font-weight: 400;
+        color: #fff;
 }
+
+.provide-item i {
+    color:#ffffff;
+    font-size: 63px;
+    border: 1px solid #ffffff;
+    width: 172px;
+    height: 172px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
 .provide-name {
     font-family: 'HelveticaNeueLTProLt',sans-serif;
 font-size: 26px;
-line-height: 26px;
+/* line-height: 26px; */
 font-weight: 400;
 letter-spacing: 0.02em;
 color: #ffffff;
 padding-top: 50px;
 padding-bottom: 30px;
 }
+
 .provide-title {
     font-family: 'Helvetica Neue Pro - Lt';
     font-size: 18px;
-line-height: 23px;
+/* line-height: 23px; */
 font-weight: 400;
 letter-spacing: 0.02em;
 color: #383838;
